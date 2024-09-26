@@ -4,12 +4,12 @@ A simple system built using Node.js, Express, and MongoDB to manage mentors and 
 
 **Features**
 
-Create Mentors,
-Create Students,
-Assign Students to Mentors (Multiple students to a single mentor),
-Change or Reassign Mentor for a Student,
-View all Students for a specific Mentor,
-List available students (those without mentors),
+Create Mentors,<br>
+Create Students,<br>
+Assign Students to Mentors (Multiple students to a single mentor),<br>
+Change or Reassign Mentor for a Student,<br>
+View all Students for a specific Mentor,<br>
+List available students (those without mentors),<br>
 View the previously assigned mentors for a Student.
 
 **API Endpoints**
