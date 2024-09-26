@@ -14,9 +14,9 @@ View the previously assigned mentors for a Student.
 
 **API Endpoints**
 
-**1. Create Mentor**
+1. Create Mentor
 
-POST /api/mentor/create
+**POST /api/mentor/create**
 
 Request Body:
 
@@ -26,9 +26,9 @@ Request Body:
 }
 
 
-**2. Create Student**
+2. Create Student
 
-POST /api/student/create<br>
+**POST /api/student/create**
 
 Request Body:
 
@@ -38,9 +38,9 @@ Request Body:
 }
 
 
-**3. Assign Students to a Mentor**
+3. Assign Students to a Mentor
 
-POST /api/mentor/assignStudent/:mentorId
+**POST /api/mentor/assignStudent/:mentorId**
 
 Request Body:
 
@@ -48,25 +48,25 @@ Request Body:
   "studentIds": ["studentId1", "studentId2"]<br>
 }
 
-**4. List Available Students**
+4. List Available Students
    
 Get students who are not yet assigned to any mentor.
 
-GET /api/student/availableStudents
+**GET /api/student/availableStudents**
 
 
-**5. Assign or Change Mentor for a Student**
+5. Assign or Change Mentor for a Student
 
 Assign a new mentor or change an existing mentor for a particular student.
 
-POST /api/student/:studentId/assignMentor/:mentorId
+**POST /api/student/:studentId/assignMentor/:mentorId**
 
 
-**6. Show All Students for a Mentor**
+6. Show All Students for a Mentor
 
-GET /api/mentor/:mentorId/getStudents
+**GET /api/mentor/:mentorId/getStudents**
 
-**7. Show Previously Assigned Mentors for a Student**
+7. Show Previously Assigned Mentors for a Student
 
-GET /api/student/:studentId/previousMentor
+**GET /api/student/:studentId/previousMentor**
 
