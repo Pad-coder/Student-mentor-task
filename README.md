@@ -66,7 +66,7 @@ POST /api/student/:studentId/assignMentor/:mentorId
 
 GET /api/mentor/:mentorId/getStudents
 
-7. Show Previously Assigned Mentors for a Student
+**7. Show Previously Assigned Mentors for a Student**
 
 GET /api/student/:studentId/previousMentor
 
