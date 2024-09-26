@@ -25,7 +25,6 @@ Request Body:
   "username": "username"  *for unique*<br>
 }
 
-
 # 2. Create Student
 
 **POST /api/student/create**
@@ -37,8 +36,7 @@ Request Body:
   "email": "email"  *for unique*<br>
 }
 
-
-3. Assign Students to a Mentor
+# 3. Assign Students to a Mentor
 
 **POST /api/mentor/assignStudent/:mentorId**
 
@@ -48,25 +46,23 @@ Request Body:
   "studentIds": ["studentId1", "studentId2"]<br>
 }
 
-4. List Available Students
+# 4. List Available Students
    
 Get students who are not yet assigned to any mentor.
 
 **GET /api/student/availableStudents**
 
-
-5. Assign or Change Mentor for a Student
+# 5. Assign or Change Mentor for a Student
 
 Assign a new mentor or change an existing mentor for a particular student.
 
 **POST /api/student/:studentId/assignMentor/:mentorId**
 
-
-6. Show All Students for a Mentor
+# 6. Show All Students for a Mentor
 
 **GET /api/mentor/:mentorId/getStudents**
 
-7. Show Previously Assigned Mentors for a Student
+# 7. Show Previously Assigned Mentors for a Student
 
 **GET /api/student/:studentId/previousMentor**
 
