@@ -1,17 +1,24 @@
-Mentor-Student Assigning System 
+# Mentor-Student Task 
 
 A simple system built using Node.js, Express, and MongoDB to manage mentors and students. The system provides APIs for creating mentors and students, assigning students to mentors, and managing relationships between them.
 
-Features
+**Features**
+
 Create Mentors
+
 Create Students
+
 Assign Students to Mentors (Multiple students to a single mentor)
+
 Change or Reassign Mentor for a Student
+
 View all Students for a specific Mentor
+
 List available students (those without mentors)
+
 View the previously assigned mentors for a Student
 
-API Endpoints
+**API Endpoints**
 
 1. Create Mentor
 
@@ -51,7 +58,7 @@ Get students who are not yet assigned to any mentor.
 GET /api/student/availableStudents
 
 
-5. Assign or Change Mentor for a Student
+5. Assign or Change Mentor for a Student <br>
 Assign a new mentor or change an existing mentor for a particular student.
 
 POST /api/student/:studentId/assignMentor/:mentorId
