@@ -14,7 +14,7 @@ View the previously assigned mentors for a Student.
 
 **API Endpoints**
 
-1. Create Mentor
+# 1. Create Mentor
 
 **POST /api/mentor/create**
 
@@ -26,7 +26,7 @@ Request Body:
 }
 
 
-2. Create Student
+# 2. Create Student
 
 **POST /api/student/create**
 
